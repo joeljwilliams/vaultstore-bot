@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+# vim: ts=2 et sw=2 sts=2 :
+
+# Bot token obtained from @BotFather
+TOKEN = ''
+# Chat id of channel for voice notes
+VNCHAN = '-1001067512403'
