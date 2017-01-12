@@ -40,8 +40,7 @@ def main():
   
   audio_doc = AudioDocument()
 
-  dp.add_handler(MessageHandler([Filters.photo], stealpic))
-  dp.add_handler(MessageHandler(Filters.voice | Filters.audio | audio_doc, stealvn))
+  dp.add_handler(MessageHandler(Filters.voice | Filters.audio | audio_doc, storevn))
 
   dp.add_error_handler(error)
 
